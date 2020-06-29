@@ -157,6 +157,7 @@ This will force you to run terraform these ways:
 
 - Exporting as a Environment Variable:
     > export TF_VAR_client_secret='12345678-1234-1234-1234-0123456789ab'
+
     > terraform plan
 
 - Using a Variable file that contents the variable:
