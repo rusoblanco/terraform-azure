@@ -182,7 +182,7 @@ This will force you to run terraform these ways:
     ```bash 
     export TF_VAR_client_secret='12345678-1234-1234-1234-0123456789ab'
 
-    terraform plan
+    terraform plan -out=tfplan.out
     ```
 
 - Using a Variable file that contents the variable:
